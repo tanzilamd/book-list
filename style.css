@@ -1,0 +1,50 @@
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+body {
+    font-family: 'Lato', sans-serif;
+}
+form {
+    margin: 20px 0;
+}
+h1 {
+    text-align: center;
+    color: lightsalmon;
+}
+input[type='text']{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    margin-bottom: 10px;
+
+}
+input[type='submit'] {
+    padding: 10px 20px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    background: transparent;
+    margin: 10px 0;
+}
+label {
+    margin-bottom: 100px;
+}
+table {
+    width: 100%;
+    
+    border-collapse: collapse;
+}
+tbody tr:nth-child(odd) {
+    background-color: #ddd;
+}
+th {
+    padding: 10px;
+    text-align: left;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 80vw;
+    }
+}
