@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 .container {
     max-width: 500px;
     margin: 0 auto;
@@ -11,13 +15,16 @@ form {
 h1 {
     text-align: center;
     color: lightsalmon;
+    margin-top: 20px;
 }
 input[type='text']{
     width: 100%;
     padding: 10px;
     font-size: 16px;
     outline: none;
-    margin-bottom: 10px;
+    border: 1px solid rgb(151, 118, 118);
+    margin: 10px 0;
+    border-radius: 8px;
 
 }
 input[type='submit'] {
@@ -36,7 +43,7 @@ table {
     border-collapse: collapse;
 }
 tbody tr:nth-child(odd) {
-    background-color: #ddd;
+    background-color: rgb(224, 224, 224);
 }
 th {
     padding: 10px;
@@ -46,5 +53,6 @@ th {
 @media (max-width: 600px) {
     .container {
         width: 80vw;
+        margin: 0 auto;
     }
 }

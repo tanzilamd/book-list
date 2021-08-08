@@ -25,5 +25,9 @@ btn.addEventListener('click', function (e) {
     newRow.appendChild(newYear)
 
     tbody.appendChild(newRow)
+
+    name.value = '';
+    author.value = '';
+    year.value = '';
     }
 })
